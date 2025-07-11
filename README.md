@@ -1,4 +1,4 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19925462&assignment_repo_type=AssignmentRepo)
+
 # Testing and Debugging MERN Applications
 
 This assignment focuses on implementing comprehensive testing strategies for a MERN stack application, including unit testing, integration testing, and end-to-end testing, along with debugging techniques.
@@ -69,15 +69,28 @@ mern-testing/
 - Cypress/Playwright: End-to-end testing framework
 - MongoDB Memory Server: In-memory MongoDB for testing
 
-## Submission
+# Bug Tracker
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+A simple full-stack bug tracker app using React and Express.
 
-1. Complete all required tests (unit, integration, and end-to-end)
-2. Achieve at least 70% code coverage for unit tests
-3. Document your testing strategy in the README.md
-4. Include screenshots of your test coverage reports
-5. Demonstrate debugging techniques in your code
+## How to Run
+
+1. Install dependencies:
+   ```
+npm install
+   ```
+2. Start the server:
+   ```
+npm start
+   ```
+3. Open your browser at `http://localhost:5000`.
+
+## How to Test
+
+Run all tests:
+```
+npm test
+```
 
 ## Resources
 
@@ -85,4 +98,4 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [React Testing Library Documentation](https://testing-library.com/docs/react-testing-library/intro/)
 - [Supertest Documentation](https://github.com/visionmedia/supertest)
 - [Cypress Documentation](https://docs.cypress.io/)
-- [MongoDB Testing Best Practices](https://www.mongodb.com/blog/post/mongodb-testing-best-practices) 
+- [MongoDB Testing Best Practices](https://www.mongodb.com/blog/post/mongodb-testing-best-practices)
